@@ -134,16 +134,6 @@ UprightFont = basictitlefont
 
 \begin{document}
 
-% ----- TOGGLE PHOTO --------
-% comment out \iffalse and remove the % from \iftrue to toggle photo
-\iffalse
-% \iftrue
-\begin{wrapfigure}{R}{0.15\textwidth}
-\vspace{-35pt}
-\includegraphics[scale=0.20]{dp_cropped}
-\end{wrapfigure}
-\fi
-
 %----------HEADING----------
 
 {\basictitle \Huge Diana Solano-Oropeza}
@@ -152,12 +142,8 @@ UprightFont = basictitlefont
 % ----- TOGGLE FOR PHOTO ----
 % \vspace{10pt}
 
-Ithaca, NY 14850
+Ithaca, New York, USA
 
-\href{mailto:solaorop@gmail.com}{
-    \faEnvelope
-    \thinspace \thinspace
-    \myuline{solaorop@gmail.com \textit{(preferred)}}} $|$
 \href{mailto:ds2396@cornell.edu}{
     \faEnvelope
     \thinspace \thinspace
@@ -169,19 +155,13 @@ Ithaca, NY 14850
 \href{https://github.com/nanoza}{
     \faGithub
     \thinspace \thinspace
-    \myuline{nanoza}}
-
-
-\href{https://twitter.com/DSolanoOropeza}{
-    \faTwitter
-    \thinspace \thinspace
-    \myuline{DSolanoOropeza}} $|$
+    \myuline{nanoza}} $|$
 \href{https://dianasolano-oropeza.com} {
     \faGlobe
     \thinspace \thinspace
-    \myuline{dianasolano-oropeza.com}} $|$
-% \faPhone
-% \thinspace \thinspace
+    \myuline{dianasolano-oropeza.com}}
+
+
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -193,7 +173,7 @@ Ithaca, NY 14850
         \resumeItemListStart
 
             \resumeItem{Concentrations: Astrostatistics, Astrobiology, Exoplanets}
-            \resumeItem{Coursework: Exoplanet Characterization, Physics of the Planets, Planetary Atmospheres, Galactic Structure and Stellar Dynamics, Physics of Stars, Neutron Stars, and Black Holes, Geochemistry, Astrophysical Processes, Geodynamics}
+            \resumeItem{Coursework: Exoplanet Characterization, Physics of the Planets, Planetary Atmospheres, Galactic Structure and Stellar Dynamics, Physics of Stars, Neutron Stars, and Black Holes, Geochemistry, Astrophysical Processes, Geodynamics, Bayesian Data Analysis: Principles and Practice}
             \resumeItem{Thesis Committee: Lisa Kaltenegger (\textit{chair}), Jake Turner, Anna Ho, and Megan Holycross}
         \resumeItemListEnd
 
@@ -203,9 +183,9 @@ Ithaca, NY 14850
         {Sept 2021 - Aug 2023}
         \resumeItemListStart
 
-            \resumeItem{Coursework: Electricity and Magnetism (Undergraduate),
-            Research Seminar I/II (Graduate),
-            Astrostatistics (Graduate)}
+            % \resumeItem{Coursework: Electricity and Magnetism (Undergraduate),
+            % Research Seminar I/II (Graduate),
+            % Astrostatistics (Graduate)}
             \resumeItem{Post-Baccalaureate Advisor: David Kipping}
 
         \resumeItemListEnd
@@ -216,7 +196,7 @@ Ithaca, NY 14850
        \resumeItemListStart
       
          \resumeItem{Senior Thesis: "Unmixing a Document: Resonance and Language Generation" advised by Jake Ryland Williams}
-         \resumeItem{Relevant Coursework: Observational Astrophysics, Galactic Astrophysics, Cosmology, Computational Physics I and II, Big Data Physics, Statistical Mechanics, Thermodynamics, Calculus I and II, Multivariate Calculus, Complex and Vector Analysis, Differential Equations}
+         % \resumeItem{Relevant Coursework: Observational Astrophysics, Galactic Astrophysics, Cosmology, Computational Physics I and II, Big Data Physics, Statistical Mechanics, Thermodynamics, Calculus I and II, Multivariate Calculus, Complex and Vector Analysis, Differential Equations}
 
        \resumeItemListEnd
     % \resumeSubheading{Bronx High School of Science}{Bronx, NY}{High School Diploma with Advanced Designation}{Sept 2012 -- June 2016}
@@ -226,6 +206,8 @@ Ithaca, NY 14850
 \section{Honors and Awards}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
+    \textbf{NASA Astrobiology Research Poster Finalist} \hfill \textit{May 2026}\\
+    \textbf{2nd Place in Fiction, 2026 Astrobiology Science Conference Creative Writing Contest} \hfill \textit{May 2026}\\
     \textbf{Cornell Dean's Excellence Fellowship} \hfill \textit{Mar 2023}\\
     \textbf{National Science Foundation Graduate Research Fellowship}\hfill \textit{Mar 2023}\\
     \textbf{AAS 241st Meeting FAMOUS Travel Grant} \hfill \textit{Nov 2022}\\
@@ -238,19 +220,6 @@ Ithaca, NY 14850
     }
     }
 \end{itemize}
-    %-----------PROJECTS-----------
-% \section{Coding Projects}
-%     \resumeSubHeadingListStart
-%       \resumeProjectHeading
-%           {\href{https://github.com/hkrsmk/beepboop-shopee-code-league-2020}{\myuline{\textbf{Shopee Code League}}} $|$ \textit{Python, Jupyter Notebooks, Google Cloud Platform}}{June -- Aug 2020}
-%           \resumeItemListStart
-%             \resumeItem{Set up data pipeline: Kaggle > cloud storage > Google Colab Notebooks\\for faster analysis}
-%             \resumeItem{Set up github repository for team}
-%           \resumeItemListEnd
-%     \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------
 
 %-----------RESEARCH-----------
 \section{Research Experience}
@@ -260,8 +229,11 @@ Ithaca, NY 14850
       {Astronomy Graduate Research Fellow}{Ithaca, NY}
       {Carl Sagan Institute}{Sept 2023 -- Present}
       \resumeItemListStart
-        \resumeItem{Expand known stars and exoplanets that may see Earth transit the Sun within the past and future 500,000 years using Gaia satellite data, advised by Lisa Kaltenegger at the Carl Sagan Institute (CSI) and Dr. Jackie Faherty at the American Museum of Natural History}
-        \resumeItem{Examine the light curves of ultra-hot Jupiter targets monitored by TESS for potential signs of transit timing variations (TTVs) and orbital decay, supervised by Jake Turner at CSI}
+        \resumeItem{Expand known stars and exoplanets that may see Earth transit the Sun within the past and future 500,000 years using Gaia satellite data, advised by Lisa Kaltenegger at the Carl Sagan Institute (CSI) and Jackie Faherty at the American Museum of Natural History}
+        \resumeItem{Utilize stellar kinematic and Galactic dynamic models to calculate the motions of stars through millions of years; convert between Galactic, heliocentric, and geocentric coordinate systems; determine time-evolving uncertainties with analytic and stochastic statistical models; estimate habitability of planets with polynomial models to determine high-priority targets for technosignature and biosignature surveys}
+        \resumeItem{Lead radio Search for Extraterrestrial Intelligence (SETI) observation campaign of high-priority targets that have seen Earth transit, with the Allen Telescope Array at the Hat Creek Radio Observatory, in collaboration with Sofia Sheikh and Joe Bright at the SETI Institute, advised by Jake Turner and Lisa Kaltenegger at CSI}
+        \resumeItem{Write bash and Python scripts to manage high-performing computing (HPC) cluster workflows for numeric computation, Nvidia GPU-accelerated inference, and signal processing}
+        % \resumeItem{Examine the light curves of ultra-hot Jupiter targets monitored by TESS for potential signs of transit timing variations (TTVs) and orbital decay, supervised by Jake Turner at CSI}
         \resumeItem{Funded by Cornell Dean's Excellence Fellowship, NSF GRFP, and the Brinson Foundation}
       \resumeItemListEnd
 
@@ -319,8 +291,7 @@ Ithaca, NY 14850
       {Astrophysics Research Assistant}{New York, NY}
       {American Museum of Natural History}{Sept 2015 -- June 2016}
       \resumeItemListStart
-        \resumeItem{Part of Science Research Mentoring Program}
-        \resumeItem{Studied dynamics of chaotic binary star system interactions under supervision of museum astrophysicist Dr. Nathan Leigh}
+        \resumeItem{As part of Science Research Mentoring Program, studied dynamics of chaotic binary star system interactions under supervision of museum astrophysicist Dr. Nathan Leigh}
         \resumeItem{Developed plots of system orbits and virial ratios using Supermongo}
         \resumeItem{Published a paper in the \textit{Monthly Notices of the Royal Astronomical Society}}
       \resumeItemListEnd
@@ -358,6 +329,9 @@ Ithaca, NY 14850
     \resumeSubHeadingListEnd
 
 \section{Publications}
+    \textbf{The \texttt{democratic detrender}: Ensemble-Based Removal of the Nuisance Signal in Stellar Time-Series Photometry.} \textit{—Yahalomi, D., Kipping, D., Solano-Oropeza, D., Li, M., Poddar, A., Zhang, X., Abaakil, Y., Cassese, B., Lennings, J., Larsen, S.S., Turner, J.D., Teachey, A., Sundai, F., Valaskovic, L. (2026)} The Astrophysical Journal Supplement Series. doi:10.3847/1538-4365/ae43c2
+    \vspace{1.5mm}
+    
     {\href{https://www.nature.com/articles/s41550-025-02532-8}{\textbf{Near-circular orbits for planets with Earth-like sizes and instellations around M and K dwarf stars.}}} \textit{—Kipping, D., Solano-Oropeza, D., Yahalomi, D., Poddar, A., Li, M., Zhang, X. (2025)} Nature Astronomy. doi:10.1038/s41550-025-02532-8
     \vspace{1.5mm}
 
@@ -367,12 +341,55 @@ particles.}}}
 Solano‐Oropeza, D., Muddu, H. (2016)} The Monthly Notices of The Royal
 Astronomical Society. doi: 101093/mnras/stw2178.
 
-\section{Manuscripts In Review}
+% \section{Manuscripts In Review}
 
-    \textbf{The \texttt{democratic detrender}: An Ensemble-Based Approach to Removing Unwanted Activity from Stellar Time-Series Photometry.} \textit{—Yahalomi, D., Kipping, D., Solano-Oropeza, D., Li, M., Poddar, A., Zhang, A., Abaakil, Y., Cassese, B., Liu, J., Sundai, F., Valaskovic, L. (2024)} Submitted to The Astrophysical Journal Supplement.
+\section{Manuscripts In Preparation}
+
+    \textbf{Tracking exoplanet host stars through the past and future 500,000 years.} \textit{—Solano-Oropeza, D., Kaltenegger, L., Faherty, J.K. (2026)} In prep.
+    \vspace{1.5mm}
+
+    \textbf{Closely approaching stars witness to Earth-Sun transits throughout millions of years across the Galaxy.} \textit{—Solano-Oropeza, D., Kaltenegger, L., Faherty, J.K., Bailer-Jones, C. (2026)} In prep.
+    \vspace{1.5mm}
+
+    \textbf{Who Watches the Watchmen: A SETI radio search of habitable zone
+    transiting planets that have seen Earth transit} \textit{—Solano-Oropeza, D., Turner, J.D., Sheikh, S.Z., Bright, J., Kaltenegger, L., Faherty, J.K., Jacobson-Bell., B., Lowry, G., Gutierrez, G., Scharfstein, N., Zelakiewicz, A., Larsen, S.S., DeMarines, J., Bibas, D., de Paulis, D., Mastrogiovanni, A., Madden, J. (2026)} In prep.
+
+\section{Presentations}
+
+    \textbf{Through the Rear Window: Characterizing the Stars that See Us Transit} \textit{—Solano-Oropeza, D. (2026)} New York Area Exoplanet Meeting III.
+    \vspace{1.5mm}
+
+    \href{https://www.youtube.com/watch?v=O2IKiK4_YOQ}{\textbf{Stars That Can See Earth Transit}} \textit{—Solano-Oropeza, D. (2026)} International Astronomical Union Symposium 404: Advancing the Search for Technosignatures. \vspace{1.5mm}
+
+    \textbf{Who Watches the Watchers? Exoplanet Host Stars in the ETZ Throughout Time} \textit{—Solano-Oropeza, D. (2025)} 2025 Penn State SETI Symposium. \vspace{1.5mm}
+
+    \textbf{Welcome to the ETZ} \textit{—Solano-Oropeza, D. (2025)} exoNYC 2. \vspace{1.5mm}
+
+    \textbf{Psst, Are the Neighbors Watching? Stars That Can See Us} \textit{—Solano-Oropeza, D. (2024)} Emerging Researchers in Exoplanet Science Symposium (ERES) IX.
+    \vspace{1.5mm}
+    
+    \textbf{Eccentric Exo-Neighbors Orbiting Late M Stars} \textit{—Solano-Oropeza, D. (2022)} Columbia University Astrofest 2022.
+    \vspace{1.5mm}
+    
+    \textbf{Estimating Eccentricities for M-Dwarfs without Radial Velocity POP} \textit{—Solano-Oropeza, D. (2022)} 2022 Sagan Exoplanet Summer Hybrid Workshop: Exoplanet Science in the Gaia Era.
+    \vspace{1.5mm}
+
+    \textbf{Mapping the Eccentricities of Pale Red Dots} \textit{—Solano-Oropeza, D. (2022)} 2022 Annual Bridge to the PhD. in STEM Research Symposium.
+    \vspace{1.5mm}
+    
+    \textbf{The Mixing Law} \textit{—Williams, J.R., Solano-Oropeza, D. (2021)} Fourth Northeast Regional Conference on Complex Systems.
+    \vspace{1.5mm}
+    
+    \textbf{Capturing Chaos in Gravitational Interactions} \textit{—Solano-Oropeza, D., Thomas, Y., Muddu, H., Leigh, N. (2016)} 2016 NYC Science Student Research Colloquium.
 
 \section{Posters}
 
+    \textbf{Habitable Zone Exoplanets That Could Witness Earth-Sun Transits: ETZ Targets Through 1 Million Years}\textit{—Solano-Oropeza, D., Kaltenegger, L., Faherty, J. (2026)} 2026 Astrobiology Science Conference.
+    \vspace{1.5mm}
+
+    \textbf{Chasing exoplanet host stars through the Earth Transit Zone over the past and future 500,000 years.}\textit{—Solano-Oropeza, D., Kaltenegger, L., Faherty, J. (2026)} International Astronomical Union Symposium 404: Advancing the Search for Technosignatures.
+    \vspace{1.5mm}
+    
     \textbf{Who Watches the Watchmen? Exploring the ETZ with Gaia DR3} \textit{—Solano-Oropeza, D., Kaltenegger, L., Faherty, J. (2024)} Astrobiology Graduate Conference (AbGradCon) 2024.
     \vspace{1.5mm}
 
@@ -396,43 +413,26 @@ Astronomical Society. doi: 101093/mnras/stw2178.
     
     \textbf{Capturing Chaos: On the Chaotic 4-Body Problem in Newtonian Gravity} \textit{—Muddu, H., Solano-Oropeza, D., Thomas, Y., Leigh, N. (2016)} 2016 NYC Science Student Research Colloquium.
     
-\section{Presentations}
-
-    \textbf{Who Watches the Watchers? Exoplanet Host Stars in the ETZ Throughout Time} \textit{—Solano-Oropeza, D. (2025)} 2025 Penn State SETI Symposium. \vspace{1.5mm}
-
-    \textbf{Welcome to the ETZ} \textit{—Solano-Oropeza, D. (2025)} exoNYC 2. \vspace{1.5mm}
-
-    \textbf{Psst, Are the Neighbors Watching? Stars That Can See Us} \textit{—Solano-Oropeza, D. (2024)} Emerging Researchers in Exoplanet Science Symposium (ERES) IX.
-    \vspace{1.5mm}
-    
-    \textbf{Eccentric Exo-Neighbors Orbiting Late M Stars} \textit{—Solano-Oropeza, D. (2022)} Columbia University Astrofest 2022.
-    \vspace{1.5mm}
-    
-    \textbf{Estimating Eccentricities for M-Dwarfs without Radial Velocity POP} \textit{—Solano-Oropeza, D. (2022)} 2022 Sagan Exoplanet Summer Hybrid Workshop: Exoplanet Science in the Gaia Era.
-    \vspace{1.5mm}
-
-    \textbf{Mapping the Eccentricities of Pale Red Dots} \textit{—Solano-Oropeza, D. (2022)} 2022 Annual Bridge to the PhD. in STEM Research Symposium.
-    \vspace{1.5mm}
-    
-    \textbf{The Mixing Law} \textit{—Williams, J.R., Solano-Oropeza, D. (2021)} Fourth Northeast Regional Conference on Complex Systems.
-    \vspace{1.5mm}
-    
-    \textbf{Capturing Chaos in Gravitational Interactions} \textit{—Solano-Oropeza, D., Thomas, Y., Muddu, H., Leigh, N. (2016)} 2016 NYC Science Student Research Colloquium.
-    
 \section{Preprints}
     {\href{https://arxiv.org/abs/2008.02885}{\textbf{A general solution to the preferential model}}} \textit{—Williams, J.R., Solano-Oropeza, D., Hunsberger, J.R. (2020)} arXiv:2008.02885
 
 % \section{Upcoming Posters}
 \section{Science Communication Presentations}
 
-    \textbf{What is the Galactic Habitable Zone?} \textit{—Solano-Oropeza, D. (2025)} Astronomy on Tap Ithaca.
+    \textbf{What if we found an alien? My live-action roleplay experience} \textit{—Solano-Oropeza, D. (2026)} Astronomy on Tap Ithaca.
     \vspace{1.5mm}
 
+    \textbf{What is the Galactic Habitable Zone?} \textit{—Solano-Oropeza, D. (2025)} Astronomy on Tap Ithaca.
+    \vspace{1.5mm}
+    
     \textbf{Speedrunning, Childhood Trauma, and Planetary Transits} \textit{—Solano-Oropeza, D. (2022)} The Science of Everyday Life, A Comedy/Storytelling Workshop at the American Museum of Natural History.
     \vspace{1.5mm}
 
 \section{Science Communication Articles}
 
+    \href{Super-Earth, Super-Tectonics?}{{\textbf{Super-Earth, Super-Tectonics?}}}\textit{—Solano-Oropeza, D. (1 Oct 2025)} Astrobites.
+    \vspace{1.5mm}
+    
     {\href{https://astrobites.org/2025/01/08/smoons-ploonets-and-circumbinary-planets-oh-my/}{\textbf{Smoons, Ploonets, and Circumbinary Planets, Oh My!}}}\textit{—Solano-Oropeza, D. (8 Jan 2025)} Astrobites.
     \vspace{1.5mm}
 
@@ -499,7 +499,7 @@ Astronomical Society. doi: 101093/mnras/stw2178.
 
     \resumeSubheading
       {Contract Action Team Organizer}{Ithaca, NY}
-      {Cornell Graduate Student Union}{Mar 2024 -- Present}
+      {Cornell Graduate Student Union}{Mar 2024 -- May 2025}
       % \resumeItemListStart
       %   \resumeItem{Build relationships and rapport with graduate workers across Cornell, in addition to acting as a source of bargaining contract progress information and collecting testimonials and grievances.}
       % \resumeItemListEnd
@@ -533,7 +533,7 @@ Astronomical Society. doi: 101093/mnras/stw2178.
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages}{: Python, C++, Mathematica, ADQL, SQL, IDL, Fortran} \\
+     \textbf{Programming Languages}{: Python, C++, Mathematica, ADQL, SQL, IDL, Fortran, R} \\
      \vspace{1mm}
      \textbf{Human Languages}{: Spanish (Fluent), Tezoatlan Mixteco (Beginner), Classical Nahuatl (Beginner), Portuguese (Beginner), Mandarin Chinese (Beginner)} \\
      \vspace{1mm}
